@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+.row > div {
+  	/* background-color: #BBBBBB; */
+  	position: relative;
+    /*margin: 1px;*/
+    /* width: 100%; */
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    /* border: 3px solid black; */
+    /* margin: 20px; */
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    /* border: 3px solid black; */
+    /* margin: 20px; */
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-12 {
+    float: left;
+    /* border: 5px solid black; */
+    /* margin: 20px; */
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+	.col-sm-1 {
+		float: left;
+		/* border: 5px solid black; */
+		width: 100%;
+	}
+}
+
+.inner {
+	border: 3px solid black;
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	background-color: #DDDDDD;
+
+}
+
+.outer {
+	border: 3px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#menu1 {
+	background-color: #1100FF;
+	padding: 10px;
+	width: 140px;
+	height: auto;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 125%;
+	border: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+}
+
+#menu2 {
+	background-color: #FF8822;
+	padding: 10px;
+	width: 140px;
+	height: auto;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 125%;
+	border: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+}
+
+#menu3 {
+	background-color: #990011;
+	padding: 10px;
+	width: 140px;
+	height: auto;
+	margin-top: 0px;
+	text-align: center;
+	font-size: 125%;
+	border: 10px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: white;
+}
+
+.dummy {
+	font-size: 125%
+	padding: 10px;
+	width: 30px;
+	height: 30px;
+	top: 0px;
+	position: relative;
+	background-color: solid red;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  padding: 10px;
+  margin: 0px;
+  top: 30px;
+  right: 0px;
+}
